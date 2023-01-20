@@ -1,0 +1,437 @@
+/* Estilos independentes */
+
+.taC{
+    text-align: center;
+}
+
+.tF20{
+    font-size: 20px;
+}
+.tf30{
+    font-size: 30px;
+}
+
+
+
+
+
+
+/* Estilos categorizados */
+
+
+
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo-principal{
+    font-size: 2em;
+    margin: 0 0 1em;
+    text-align: center;
+    clear: left;
+    margin-bottom: 2em;
+}
+
+
+.principal{
+   padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}    
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.utensilios{
+    width: 150px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.banner{
+    width: 100%;
+}
+
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+.mapa-conteudo:hover{
+    box-shadow: 15px 15px 15px #088C19;
+    transform: scale(1.1);
+    transition: 1s all;
+}
+
+.mapa-conteudo:not(:hover){
+    box-shadow: 10px 10px 10px #000000;
+    transform: scale(1.0);
+    transition: 1s all;
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.beneficios{
+    background-color: #888888;
+    padding: 3em 0;
+}
+
+.conteudo-beneficios{
+    width: 640px;
+    margin: 0 auto;
+    
+}
+
+.lista-beneficios{
+    vertical-align: top;
+    font-size: 18px;
+    width: 40%;
+    display: inline-block;
+}
+
+.imagem-beneficios{
+    width: 50%;
+}
+
+#li1{
+    margin-left: 0%;
+
+}
+
+#li2{
+    margin-left: 9%;
+}
+
+#li3{
+    margin-left: 18%;
+}
+
+#li4{
+    margin-left: 27%;
+}
+
+#li5{
+    margin-left: 36%;
+}
+
+#li6{
+    margin-left: 45%;
+}
+
+.itens{
+    line-height: 2;
+}
+
+.itens:before{
+    content: "- ";
+}
+
+
+
+.video{
+    width: 560px;
+    margin: 200px auto;
+    box-shadow: 15px 15px 10px #000000;
+}
+
+.video:hover{
+    box-shadow: 20px 20px 15px red;
+    transform: scale(1.2);
+    transition: 1s all;
+}
+.video:not(:hover){
+    box-shadow: 15px 15px 10px #000000;
+    transform: scale(1.0);
+    transition: 1s all;
+}
+
+
+/* Cabeçalho Produtos */
+
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: grey;
+    padding: 20px 0;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.nav li{
+    display: inline;
+    margin: 0 0 0 15px ;
+
+}
+
+.nav{
+    text-transform: uppercase;
+    color: blue;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+    transition: 300ms all;
+    text-decoration: none;
+}
+
+.nav a:not(:hover){
+    color: #000000;
+    text-decoration: underline;
+    transition: 500ms all;
+    text-decoration: none;
+}
+
+.nav ul{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+
+}
+
+/* Conteudo Produtos */
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+
+}
+
+.produtos li:active {
+    border-color: #088C19;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao{
+    font-size: 18px;
+    
+}
+
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+/* Conteudo Rodapé(Footer) */
+
+footer {
+    text-align: center;
+    background: url("../parte\ 2\ -\ iniciante/imagens/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+/* Conteudo Formulário */
+
+
+
+.formularioblock{
+    margin: 40px 0;
+
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    padding-left: 150px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    margin-left: 150px;
+}
+
+.horario{
+    margin: 30px 0;
+}
+
+.horario-select{
+    margin-left: 150px;
+}
+
+.checkbox{
+    margin: 30px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin-left: 150px;
+
+}
+
+.enviar:hover{
+    background: #088C19;
+    transform: scale(1.1);
+
+}
+
+.tabela{
+    margin: 40px 0 40px;
+    margin-left: 150px;
+
+}
+
+.thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+thead th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+tbody td{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+/* Responsividade da pagina */
+
+@media screen and (max-width: 480px){
+    .principal, .conteudo-beneficios, .mapa-conteudo, .video, main {
+        width: auto; 
+    }
+
+    .header{
+        height: 300px;
+        padding: 0%;
+    
+    }
+
+    .caixa{
+        width: 2%;
+        display: inline-block;
+ 
+
+    }
+    #imglogobarbearia{
+        width: 1500%;
+        margin-left: 125px;
+    }
+
+
+    h1 {
+        text-align: center;
+    }
+
+    .nav ul{
+        margin-bottom: 100px;
+        margin-right: -320px;
+        padding-left: 0%;
+        margin-top: 110px;
+        margin-left: -100px;
+
+
+    }
+    .nav li a{
+        font-size: 18px;
+    }
+
+    .lista-beneficios, .imagem-beneficios{
+        width: 100%;
+    }
+    
+    #cabelo, #barba, #cabelo-barba{
+        width: 80%;
+        height: 450px;
+        display: block;
+        margin-bottom: 25px;
+    }
+    #imgcabelo, #imgbarba, #imgcabelobarba{
+        width: 80%;
+    }
+    .produtos{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .formularioblock{
+        margin-right: 50px;
+        margin-left: -80px;
+        padding-right: 30px;
+    }
+    .tabela{
+        position: static;
+        margin-left: 170px;
+    }
+    .enviar{
+        margin-left: 180px;
+    }
+    .horario-select{
+        margin-left: 210px;
+    }
+
+}
